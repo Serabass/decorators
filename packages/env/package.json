@@ -1,0 +1,50 @@
+{
+  "name": "@serabass/env",
+  "version": "1.0.8",
+  "description": "> TODO: description",
+  "homepage": "",
+  "license": "ISC",
+  "author": "Serabass <serabass565@gmail.com>",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "clean": "rimraf dist node_modules coverage",
+    "reset-hash": "reset-hash",
+    "lint": "eslint -c .eslintrc.yml --ext ts src",
+    "test": "jest --passWithNoTests",
+    "test:cov": "jest --coverage --passWithNoTests",
+    "test:watch": "jest --watch",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "prepublish": "tsc"
+  },
+  "dependencies": {
+    "@types/jest": "^26.0.19",
+    "dotenv": "^8.2.0",
+    "reflect-metadata": "^0.1.13",
+    "rimraf": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "10.17.21",
+    "@typescript-eslint/eslint-plugin": "^4.0.1",
+    "@typescript-eslint/parser": "^4.0.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.6",
+    "prettier": "^2.1.1",
+    "typescript": "^4.0.2"
+  },
+  "publishConfig": {
+    "registry": "http://npm.serabass.local/"
+  },
+  "gitHead": "0663d664c918ab54e8f91128061154935bea8f29"
+}

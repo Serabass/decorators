@@ -1,0 +1,29 @@
+{
+  "name": "@decorators/ini",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Serabass <serabass565@gmail.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "lib/ini.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://npm.serabass.local/"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "@types/ini": "^1.3.30",
+    "@types/jest": "^26.0.19",
+    "ini": "^2.0.0",
+    "reflect-metadata": "^0.1.13"
+  }
+}
