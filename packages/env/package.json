@@ -43,8 +43,5 @@
     "prettier": "^2.1.1",
     "typescript": "^4.0.2"
   },
-  "publishConfig": {
-    "registry": "http://npm.serabass.local/"
-  },
   "gitHead": "0663d664c918ab54e8f91128061154935bea8f29"
 }

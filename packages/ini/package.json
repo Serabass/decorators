@@ -13,9 +13,6 @@
   "files": [
     "lib"
   ],
-  "publishConfig": {
-    "registry": "http://npm.serabass.local/"
-  },
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch"
