@@ -2,7 +2,7 @@
   "name": "@serabass/env",
   "version": "1.0.8",
   "description": "> TODO: description",
-  "homepage": "",
+  "homepage": "https://github.com/Serabass/decorators",
   "license": "ISC",
   "author": "Serabass <serabass565@gmail.com>",
   "main": "dist/index.js",
@@ -29,7 +29,8 @@
     "@types/jest": "^26.0.19",
     "dotenv": "^8.2.0",
     "reflect-metadata": "^0.1.13",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "yn": "^4.0.0"
   },
   "devDependencies": {
     "@types/dotenv": "^8.2.0",

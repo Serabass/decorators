@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "> TODO: description",
   "author": "Serabass <serabass565@gmail.com>",
-  "homepage": "",
+  "homepage": "https://github.com/Serabass/decorators",
   "license": "MIT",
   "main": "lib/ini.js",
   "directories": {

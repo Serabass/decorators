@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "homepage": "https://github.com/Serabass/decorators",
   "scripts": {
     "test": "lerna run test --parallel",
     "test:watch": "lerna run test:watch --parallel"
